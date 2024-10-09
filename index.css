@@ -31,7 +31,7 @@ body *{
 #card{
     margin: auto;
     width: 350px;
-    box-shadow: 6px 6px;
+    box-shadow: 8px 8px;
 
     background: var(--white);
     font-family: figtree;
@@ -42,6 +42,7 @@ body *{
 }
 
 #illustration{
+    margin-bottom: 1.4rem;
     width: 100%;
     border-radius: 12px;
 }
@@ -55,13 +56,13 @@ body *{
     padding: 6px 12px;
     font-weight: 800;
 }
- 
-#publish-date{
-
-}
 
 h2{
     font-weight: 800;
+}
+
+h2:hover{
+    color: var(--yellow);
 }
 
 p{
@@ -77,7 +78,7 @@ p{
 
 #portrait{
     margin: 0;
-    width: 40px;
+    width: 35px;
 }
 
 h3{
